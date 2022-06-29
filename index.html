@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zebronics</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg  bg-light fixed-top">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><img src="./images/logo-1.webp" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./images/logo-1.webp" alt=""></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Audio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Peripherals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Accessories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Smart Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Personal Grooming</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Surveillance</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Health Care</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- End nav-bar -->
+    
+    <!-- Banner -->
+    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="2000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/banner-1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/bannner-2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/banner-3.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- End Banner -->
+
+    <!-- Youtube note -->
+    <section class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12 gy-3">
+                    <div class="videoWrapper videoone">
+                        <iframe class="w-100 "  height="300" src="https://www.youtube.com/embed/8V0IsaSGVMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 gy-3 ">
+                    <div class="videoWrapper videoone">
+                        <iframe class="w-100  " height="300" src="https://www.youtube.com/embed/fEClqC6qylU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Youtube note -->
+
+    <!-- Trending -->
+    <section class="pt-5">
+        <div class="container">
+            <div class="tt-block-title">
+                <div class="tt-title">
+                    <h4>TRENDING CATEGORIES</h4>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="pro col-6 col-sm-2 col-5-inrow-lg">
+                    <div class="image">
+                        <img src="./images/product-1.webp" alt="">
+                    </div>
+                    <div class="pro-text">
+                        <h2>Smart Watches</h2>
+                    </div>
+                </div>
+                <div class="pro col-6 col-sm-2 col-5-inrow-lg">
+                    <div class="image">
+                        <img src="./images/product-2.jpeg" alt="">
+                    </div>
+                    <div class="pro-text">
+                        <h2>Gameing</h2>
+                    </div>
+                </div>
+                <div class="pro col-6 col-sm-2 col-5-inrow-lg">
+                    <div class="image">
+                        <img src="./images/product-3.jpeg" alt="">
+                    </div>
+                    <div class="pro-text">
+                        <h2>Ear Buds</h2>
+                    </div>
+                </div>
+                <div class="pro col-6 col-sm-2 col-5-inrow-lg">
+                    <div class="image">
+                        <img src="./images/product-4.jpeg" alt="">
+                    </div>
+                    <div class="pro-text">
+                        <h2>Soundbars</h2>
+                    </div>
+                </div>
+                <div class="pro col-6 col-sm-2 col-5-inrow-lg">
+                    <div class="image">
+                        <img src="./images/product-5.jpeg" alt="">
+                    </div><div class="pro-text">
+                        <h2>Smart Camera</h2>
+                    </div>
+                </div>
+                <div class="pro col-6 col-sm-2 col-5-inrow-lg">
+                    <div class="image">
+                        <img src="./images/product-6.jpeg" alt="">
+                    </div>
+                    <div class="pro-text">
+                        <h2>Power Banks</h2>
+                    </div>
+                </div>
+                <div class="pro col-6 col-sm-2 col-5-inrow-lg">
+                    <div class="image">
+                        <img src="./images/product-7.jpeg" alt="">
+                    </div>
+                    <div class="pro-text">
+                        <h2>Wireless Mouse</h2>
+                    </div>
+                </div>
+                <div class="pro col-6 col-sm-2 col-5-inrow-lg">
+                    <div class="image">
+                        <img src="./images/product-8.jpeg" alt="">
+                    </div>
+                    <div class="pro-text">
+                        <h2>Headphone</h2>
+                    </div>
+                </div>
+                <div class="pro col-6 col-sm-2 col-5-inrow-lg">
+                    <div class="image">
+                        <img src="./images/product-9.jpeg" alt="">
+                    </div>
+                    <div class="pro-text">
+                        <h2>PC Speakers</h2>
+                    </div>
+                </div>
+                <div class="pro col-6 col-sm-2 col-5-inrow-lg">
+                    <div class="image">
+                        <img src="./images/product-10.jpeg" alt="">
+                    </div>
+                    <div class="pro-text">
+                        <h2>Keyboards</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- End treading -->
+
+    <!-- New Product -->
+    <section class="pt-5">
+         <div class="container">
+            <div class="tt-block-title">
+                <div class="tt-title">
+                    <h4>JUST LAUCHED</h4>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="new-pro col-6 col-sm-3">
+                    <img id="my-img-1"  src="./images/new-pro-1.jpeg" alt="">
+                    <div class="new-pro-con">
+                        <h4>Wireless Neckband Earphone</h4>
+                        <p class="tag">Zeb-Yoga N1</p>
+                        <p class="price">Rs. 2,999.00</p>
+                    </div>
+                </div>
+                <div class="new-pro col-6 col-sm-3">
+                    <img id="my-img-2" src="./images/new-pro-2.jpeg" alt="">
+                    <div class="new-pro-con">
+                        <h4>Wireless Earbuds</h4>
+                        <p class="tag">Zeb-Sound Bomb N1</p>
+                        <p class="price">Rs. 4,199.00</p>
+                    </div>
+                </div>
+                <div class="new-pro col-6 col-sm-3">
+                    <img id="my-img-3" src="./images/pro-new-3.jpeg" alt="">
+                    <div class="new-pro-con">
+                        <h4>Tower Speaker</h4>
+                        <p class="tag">Zeb-Bt800RUF with mic</p>
+                        <p class="price">Rs. 8,699.00</p>
+                    </div>
+                </div>
+                <div class="new-pro col-6 col-sm-3">
+                    <img id="my-img-4" src="./images/new-pro-4.jpeg" alt="">
+                    <div class="new-pro-con">
+                        <h4>Gaming Monitors</h4>
+                        <p class="tag">Zeb-AC32FHD LED (165Hz)</p>
+                        <p class="price">Rs. 44,999.00</p>
+                    </div>
+                </div>
+                <div class="new-pro col-6 col-sm-3">
+                    <img id="my-img-5" src="./images/new-pro-7.jpeg" alt="">
+                    <div class="new-pro-con">
+                        <h4>Tower Speakers</h4>
+                        <p class="tag">Zeb-Octava</p>
+                        <p class="price">Rs. 24,999.00</p>
+                    </div>
+                </div>
+                <div class="new-pro col-6 col-sm-3">
+                    <img id="my-img-6" src="./images/new-pro-8.jpeg" alt="">
+                    <div class="new-pro-con">
+                        <h4>Ram</h4>
+                        <p class="tag">Zeb-DM26G16D4</p>
+                        <p class="price">Rs. 14,999.00</p>
+                    </div>
+                </div>
+                <div class="new-pro col-6 col-sm-3">
+                    <img id="my-img-7" src="./images/new-pro-6.jpeg" alt="">
+                    <div class="new-pro-con">
+                        <h4>Smart Fitness Watch</h4>
+                        <p class="tag">Zeb-FIT380CH</p>
+                        <p class="price">Rs. 5,999.00</p>
+                    </div>
+                </div>
+                <div  class="new-pro col-6 col-sm-3">
+                    <img id="my-img-8" src="./images/new-pro-5.jpeg" alt="">
+                    <div class="new-pro-con">
+                        <h4>Trimmer</h4>
+                        <p class="tag">Zeb-HT100</p>
+                        <p class="price">Rs. 1,499.00</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </section>
+
+    <!-- End new product -->
+
+    <!-- Follow -->
+    <section class="pt-5">
+        <div class="container">
+            <div class="tt-block-title">
+                <div class="tt-title">
+                    <h4><a href="#">@FOLLOW</a> US ON </h4>
+                    <P>INSTAGRAM</P>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="post col-6 col-sm-3">
+                    <a href="https://www.instagram.com/zebronics/?hl=en"><img id="insta-1"   src="./images/insta-1.jpeg" alt=""></a>
+                </div>
+                <div class="post col-6 col-sm-3">
+                    <a href="https://www.instagram.com/zebronics/?hl=en"><img  id="insta-1" src="./images/insta-2.jpeg" alt=""></a>
+                </div>
+                <div class="post col-6 col-sm-3">
+                    <a href="https://www.instagram.com/zebronics/?hl=en"><img id="insta-1" src="./images/insta-3.jpeg" alt=""></a>
+                </div>
+                <div class="post col-6 col-sm-3">
+                    <a href="https://www.instagram.com/zebronics/?hl=en"><img id="insta-1" src="./images/insta-4.jpeg" alt=""></a>
+                </div>
+                <div class="post col-6 col-sm-3">
+                    <a href="https://www.instagram.com/zebronics/?hl=en"><img id="insta-1" src="./images/insta-5.webp" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End follow -->
+
+    <!-- Premium -->
+    <section class="pt-5">
+        <div class="container">
+            <div class="title">
+                <div class="tt">
+                    <h5>zebronics: Premium for masses.</h5>
+                </div>
+                <div class="paragraph">
+                    <p>Revolutionizing technology for the masses, incorporating Excellence, Quality and Reliability in products range, be it <a href=""> Soundbars </a> | <a href=""> Home Theatres </a>| <a href=""> Headphones </a> | <a href="">Earphones</a>  | TWS | Gaming Cabinets | Monitor | Keyboards | Mouse | IT & Work from Home Peripherals | Power Banks | Computer / Mobile & Laptop Accessories | Fitness Bands | Smart Watch | CCTV | Smart Home Automation | Oximeters | Power UPS with best price, brand warranty and after-sales support. Since 1997.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Premium -->
+
+    <!-- Footer -->
+
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="company col-md-6 col-lg-2 col-xl-3 ">
+                    <div class="tt-mobile-collapse">
+                        <h4 class="tt-collapse-title px-4">Company</h4>
+                        <div class="tt-collapse-content">
+                            <ul class="tt-list">
+                                <li>
+                                    <a href="" class="text-decoration-none">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Brand Stores</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Careers</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">News Center</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Security</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">CSR</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company col-md-6 col-lg-2 col-xl-3 ">
+                    <div class="tt-mobile-collapse">
+                        <h4 class="tt-collapse-title px-4">Product</h4>
+                        <div class="tt-collapse-content">
+                            <ul class="tt-list">
+                                <li>
+                                    <a href="" class="text-decoration-none">Audio</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Gaming</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Peripherals</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Smart Fitness Watch</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Personal Grooming</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Surveillance</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company col-md-6 col-lg-2 col-xl-3 ">
+                    <div class="tt-mobile-collapse">
+                        <h4 class="tt-collapse-title px-4">Support</h4>
+                        <div class="tt-collapse-content">
+                            <ul class="tt-list">
+                                <li>
+                                    <a href="" class="text-decoration-none">Contact Us</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Warranty Policy</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Shipping & Returns</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Onsite Support Registration</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Warranty Registration</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="" class="text-decoration-none">Terms & Conditions</a>
+                                </li> 
+                                <li>
+                                    <a href="" class="text-decoration-none">E-waste Management</a>
+                                </li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="company col-md-6 col-lg-2 col-xl-3 ">
+                    <div class="tt-newsletter">
+                        <div class="tt-mobile-collapse">
+                            <h4 class="tt-collapse-title ">Stay Connected</h4>
+                            <div class="tt-collapse-content">
+                                <p>Subscribe to get latest product launches, offers, exclusive news.</p>
+                                <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="customer"><input type="hidden" name="utf8" value="✓">
+                                    <div class="form-group">
+                                      <input type="hidden" name="contact[tags]" value="newsletter">
+                                      <input type="email" name="contact[email]" class="form-control" value="" placeholder="Email" autocomplete="off" autocapitalize="off" spellcheck="false">
+                                      <button type="submit" class="btn footer_subscribe_btn btn-1" name="commit">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <ul class="tt-social-icon d-flex justify-content-around pt-3 px-0 ">
+                            <li><a class="bi bi-facebook" target="_blank" href="https://www.facebook.com/Zebronics"></a></li>
+                            <li><a class="bi bi-twitter" target="_blank" href="https://twitter.com/zebronics"></a></li>
+                            <li><a class="bi bi-google" target="_blank" href="https://www.linkedin.com/company/zebronics"></a></li>
+                            <li><a class="bi bi-instagram" target="_blank" href="https://www.instagram.com/zebronics/"></a></li>
+                            <li><a class="bi bi-youtube" target="_blank" href="https://www.youtube.com/zebronics"></a></li></ul>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
+
+

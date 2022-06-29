@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+.pt-5 .container .tt-block-title{
+    text-align: center;
+    padding-bottom: 33px;
+}
+
+
+/* Nav bar */
+.navbar .container-fluid img{
+    height: 24px;
+}
+.navbar .container-fluid .offcanvas-body .nav-item a{
+    color: #000;
+    display: inline-block;
+    position: relative;
+}
+.navbar .container-fluid  .nav-item a:hover{
+    color: rgb(74, 183, 255);
+}
+.navbar .container-fluid  .nav-item a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(74, 183, 255);
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+}
+  
+.navbar .container-fluid  .nav-item a:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* End Nav-Bar */
+
+/* Banner */
+.carousel .carousel-indicators button {
+    height: 14px;
+    width: 16px;
+    border: 1px solid #000;
+    background-color: #000;
+    border-radius: 40rem;
+}
+
+/* End Banner */
+
+/* Trending */
+.pt-5 .container .row .pro{
+    flex: 0 0 20%;
+    max-width: 20%;
+    position: relative;
+}
+.pt-5 .container .row .pro img{
+    width: 100%;
+    border-radius: 10px;
+}
+.pt-5 .container .row .pro h2{
+    position: absolute;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    top: 40%;
+    color: #fff;
+}
+
+/* End treanding */
+
+/* Launched */
+.pt-5 .container .row .new-pro img{
+    width: 100%;
+}
+.pt-5 .container .row .new-pro h4{
+    color: #999999;
+    font-size: 1rem;
+    text-align: center;
+}
+.pt-5 .container .row .new-pro .tag{
+    font-size: 1rem;
+    text-align: center;
+}
+.pt-5 .container .row .new-pro .price{
+    font-size: 1rem;
+    text-align: center;
+}
+#my-img-1:hover {
+    content: url(./images/new-pro-1-1.webp);
+}
+#my-img-2:hover {
+    content: url(./images/new-pro-2-2.webp);
+}
+#my-img-3:hover {
+    content: url(./images/new-pro-3-3.webp);
+}
+#my-img-4:hover {
+    content: url(./images/new-pro-4-4.webp);
+}
+#my-img-5:hover {
+    content: url(./images/new-pro-7-7.webp);
+}
+#my-img-6:hover {
+    content: url(./images/new-pro-8-8.webp);
+}
+#my-img-7:hover {
+    content: url(./images/new-pro-6-6.webp);
+}
+#my-img-8:hover {
+    content: url(./images/new-pro-5-5.webp);
+}
+/* End Lauched */
+
+/* Follow */
+.pt-5 .container .row{
+    justify-content: center;
+}
+.pt-5 .container .row .post{
+    width: 20%;
+    justify-self: center;
+}
+.pt-5 .container .row .post img{
+    width: 100%;
+}
+#insta-1:hover {
+    filter: brightness(50%);
+}
+/* End follow */
+
+/* Premium */
+.pt-5 .container .title .paragraph p{
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+.pt-5 .container .title .paragraph a{
+    color: #000;
+}
+.pt-5 .container .title .paragraph a:hover{
+    color: rgb(74, 183, 255);
+}
+/* End Premium */
+
+/* Footer */
+footer{
+    background-color: #f7f8fa;
+}
+footer .company a{
+    color: #777777;
+}
+
+footer  .tt-newsletter .form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+}
+footer  .btn-1{
+    color: #ffffff;
+    background: #00aeef;
+    border: 1px solid #ffffff;
+}
+@media (max-width:992px){
+
+    /* Nav */
+    nav .container-fluid{
+        flex-direction: row-reverse;
+    }
+    nav .container-fluid .nav-brand{
+        flex: 0.8;
+    }
+    .navbar .container-fluid  .nav-item{
+        padding-top: 2rem;
+    }
+
+    /* End nav */
+    /* Yt-note */
+    .pt-5 .container{
+        max-width: 90%;
+    }
+    /* End yt-note */
+    .pt-5 .container .row .pro{
+        flex: 0 0 33%;
+        max-width: 50%;
+    }
+    
+   
+}
+
+@media (max-width:768px){
+
+    /* Nav */
+    nav .container-fluid .nav-brand{
+        flex: 0.69;
+    }
+    .navbar .container-fluid  .nav-item{
+        padding-top: 2rem;
+    }
+    .carousel .carousel-indicators button {
+        height: 12px;
+        width: 12px;
+    }
+    /* End nav */
+    .pt-5 .container .row .pro{
+        flex: 1 0 36%;
+        max-width: 50%;
+    }
+
+   
+}
+
+@media (max-width:576px){
+
+    /* Nav */
+    nav .container-fluid .nav-brand{
+        flex: 0.8;
+    }
+    .carousel .carousel-indicators button {
+        height: 9px;
+        width: 9px;
+    }
+    /* End nav */
+    .pt-5 .container .row .pro{
+        flex: 1 0 36%;
+        max-width: 50%;
+    }
+
+    #carouselExampleIndicators{
+        padding-top: 3rem;
+    }
+
+   
+}
